@@ -7,7 +7,10 @@ const cors = require('cors');
 const app = express();
 
 // your mongoDB Cloud URL
-const dbCloudUrl = 'mongodb+srv://MarkJastine:Jastine30@cluster0.kwg7ehr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+const dbCloudUrl = 'mongodb+srv://Jastine-Siena:Jastine30@cluster0.kwg7ehr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+//if this wont work try this:
+//mongodb+srv://Jastine-Siena:<password>@cluster0.kvmr79p.mongodb.net/
+
 // your mongoDB Cloud URL
 const dbLocalUrl = 'mongodb://localhost:27017/express-mongo-api';
 
