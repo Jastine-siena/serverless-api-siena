@@ -25,6 +25,6 @@ mongoose
     .catch((error) => console.error('Failed to connect to MongoDB', error));
 app.use('/.netlify/functions/api', router);
 
-module.exports.handler = serverless(app);
-
+const handler = serverless(app)
+module.exports = handler
 
