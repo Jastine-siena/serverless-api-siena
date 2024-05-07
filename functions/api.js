@@ -13,7 +13,7 @@ const dbCloudUrl = 'mongodb+srv://Jastine-Siena:Jastine30@cluster0.kvmr79p.mongo
 
 
 // your mongoDB Cloud URL
-const dbLocalUrl = 'mongodb://localhost:27017/express-mongo-api';
+// const dbLocalUrl = 'mongodb://localhost:27017/express-mongo-api';
 
 app.use(cors());
 app.use(express.json());
